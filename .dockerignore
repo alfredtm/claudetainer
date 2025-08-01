@@ -1,0 +1,44 @@
+# Git files
+.git
+.gitignore
+
+# GitHub Actions
+.github
+
+# Documentation
+README.md
+*.md
+CHANGELOG.md
+LICENSE
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts and logs
+*.log
+*.tmp
+.dockerignore
+
+# Test files
+test/
+tests/
+
+# Alternative Dockerfiles  
+Dockerfile.*
+!Dockerfile
+
+# Kubernetes manifests (not needed in build context)
+k8s/
